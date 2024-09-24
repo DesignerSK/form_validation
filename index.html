@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formularvalidierung</title>
+</head>
+<body>
+
+<form>
+    <h1>Benutzerregistrierung</h1>
+    <div>
+        <label for="vorname_nachname">Vorname und Nachname:</label>
+        <input id="vorname_nachname" type="text" name="vorname_nachname" placeholder="Nico Kühl">
+    </div>
+    <div>
+        <label for="benutzername">Benutzername:</label>
+        <input id="benutzername" type="text" name="benutzername" placeholder="designer.sk">
+    </div>
+    <div>
+        <label for="email">E-Mail-Adresse:</label>
+        <input id="email" type="text" name="email" placeholder="designer.sk@yahoo.com">
+    </div>
+    <div>
+        <label for="passwort">Passwort:</label>
+        <input id="passwort" type="text" name="passwort" placeholder="*******">
+    </div>
+    <div>
+        <label for="passwort_wiederholen">Passwort wiederholen:</label>
+        <input id="passwort_wiederholen" type="text" name="passwort_wiederholen" placeholder="*******">
+    </div>
+    <div>
+        <button>Registrieren</button>
+    </div>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
